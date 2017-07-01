@@ -1,0 +1,35 @@
+/*
+.nav {
+  position: fixed;
+  width:100%;
+  top:0;
+  padding:20px 10px 20px;
+  background-color: lightblue;  
+  z-index: 1;
+}
+
+.nav a:hover {
+  color: #ff0;
+  text-decoration: none;
+}
+
+.nav ul li {
+  display: inline-block;
+  float: right;
+  padding-left: 5px;
+  
+}
+.nav a {
+  color:white;
+  float:left;
+  text-transform: uppercase;
+  letter-spacing: 0,5em;
+  transition: color 0.3s;
+}
+.nav ul li a {
+  color:white;
+  text-transform: uppercase;
+  letter-spacing: 0,5em;
+  transition: color 0.3s; 
+  -webkit-transition: color 600ms;
+}*/

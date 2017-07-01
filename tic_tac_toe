@@ -1,0 +1,12 @@
+* {
+box-sizing: border-box;
+}
+#game {
+  max-with:600px;
+  margin:auto;
+}
+.square {
+  witdh:31.33%;
+  margin:1%;
+  border:1px
+}

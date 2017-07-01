@@ -1,0 +1,47 @@
+
+
+body {
+  background: url("../img/vanila.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-self: center;
+  align-items: center;
+  font-family: Verdana,Geneva,sans-serif;
+}
+
+.title {
+	text-align:center;
+	position: relative top;
+	text-shadow: 2px 2px 8px 	#8A2BE2;
+	font-size: 2em;
+}
+
+.container {
+  margin: 100px auto;
+}
+
+.contact_information {
+  text-align: center;
+  position: relative right;
+  margin-top: 20%;
+  font-size: 1,5em;
+  text-shadow: 2px 2px 8px 	#8A2BE2;
+  background-size: 50%;
+}
+
+.border {
+  background-color: pink;
+  width: 100%;
+  max-width: 450px;
+  margin-top: 10%;
+  }
+.jagged {
+  width: 100%;
+  display: block;
+  height: 16px;
+  background-image: url('https://www.giftrocket.com/assets/jagged_edge_tile_top-e4052063b62cf9dc43c07ac93496a14578cb0c471672815df930917aef696f6c.png');
+}
+
+

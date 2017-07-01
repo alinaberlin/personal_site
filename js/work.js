@@ -1,0 +1,1 @@
+var work = ["img/kitty.jpg", "img/kitty.jpg", "img/kitty.jpg", "img/kitty.jpg", "img/kitty.jpg"];

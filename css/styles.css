@@ -1,0 +1,165 @@
+
+
+/* Main page */
+.jumbotron {
+  background-image:url(../img/landscape.jpg);
+	background-size:cover;
+}
+.jumbotron p {
+	color:darkviolet; 
+}
+.carousel-caption {
+  margin-left:-15px;
+  margin-right:-15px;
+	font-size:1.6em;
+}
+body {
+  background-color: aliceblue;
+  font-family:Verdana,Geneva,sans-serif;
+  position:relative
+}
+
+/* Contact page */	
+.title {
+  text-align:left;
+	position:relative top; 
+	font-size:20px;
+	color:white;
+}
+.contact_information {
+	text-align: left;
+	position: relative;
+	margin-top: 5%;
+	font-size: 20px;
+	color: white; 
+}
+.contact {
+  background:url("../img/berlin.jpg");
+  /*Add a background image*/
+  background-attachment:fixed;
+  /*Give the background a fixed position does it not scroll when you scroll*/
+  background-size:cover;
+  /*Have the background cover the entire div section*/
+  /*Change the color of the text on top so it is readable, and adjust the padding as needed.*/
+  padding:100px;
+  padding-top:30px;
+    /* Set position: relative; on the parent element … */
+  position:relative;
+  height:auto;
+  width:100%;
+  }
+
+/* Portfolio */
+.work .col-md-3 {
+  padding-bottom: 30px;
+}
+
+/* FAQ */
+.panel-heading {
+	background-color:red;
+  padding-top:2em;
+}
+.panel-body {
+  background-color:#fff !important;
+}
+.glyphicon {
+  color: #0000FF;
+  margin-right:0.2em;
+  top:2px;
+}      
+
+/* Index Style */
+.projectName {
+  text-transform:uppercase;
+}
+
+/* About */
+.about {
+  padding-top:25px;
+  background:aliceblue;
+}
+.about h1 , 
+.about h2,
+.about h3 {
+  font-family:Futura;
+}
+.about li {
+  font-size:20px;
+}
+.about .header h1 {
+  text-align:center;
+  margin:100px 0px;
+}
+.about p {
+  display:inline;
+  font-size:20px;
+}
+.about .main-text {
+	clear:both;
+  position:relative;
+  padding:60px 20px;
+}
+
+/* Iframe */
+.iframe {
+  padding:30px 0;
+}
+
+/* Footer style */
+.footer a:active {
+  color:#ff0000;
+}
+.twitter {
+  float:left;
+  text-align:center;
+}
+.footer a {
+  display:inline-block;
+}
+a img {
+  margin-top:-10px;
+}
+
+/* iframe */
+.embed-responsive .embed-responsive-item,
+.embed-responsive embed, .embed-responsive iframe,
+.embed-responsive object, .embed-responsive video {
+  width:60%;
+  height:60%;
+  position:absolute;
+  margin:auto;
+  top:50%;
+  left:50%;
+  transform:translate(-50%, -50%);
+}
+
+/* form */
+.form-control {
+  width:80%;
+}
+.hello {
+  font-size:30px;
+  color:white;
+}
+.btn.btn-success {
+  margin-top:10px;
+}
+
+/* Modal */
+.modal-button {
+  float:right;
+  padding:15px;
+}
+.learn-more {
+  text-align:left;
+  float:left;
+}
+.btn.btn-primary {
+  margin-bottom:15px;
+}
+.mycv {
+  height:500px;
+  width:100%;
+  padding:10px;
+}
+

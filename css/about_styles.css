@@ -1,0 +1,53 @@
+
+/* Typography */
+
+
+body {
+  padding-top: 25px;
+}
+#about h1 , 
+#about h2,
+#about h3 {
+  font-family : Futura, Helvetica, Arial, sans-serif;
+}
+ * { box-sizing: border-box; }
+ 
+#about .container {
+  width: 80%;
+  margin: 100px auto;
+}
+
+#about p,
+#about li {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#about .column {
+  position:static;
+  display: block;
+  float: left;
+  width: 30%;
+  padding: 0 20px;
+  }
+
+
+
+#about .header h1 {
+    text-align: center;
+    margin: 100px 0px;
+}
+
+#about p {
+  display: inline;
+  font-size:30px;
+}
+
+
+#about .main-text {
+	clear: both;
+  position: relative;
+  padding: 60px 20px;
+
+}
+
