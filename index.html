@@ -276,6 +276,8 @@
     <div class= "container-fluid contact " id="contact">
         <div class="noctunal col-lg-4 col-md-4">
           <div class="title"> 
+            <!--<iframe width="100%" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJ5byg7X5OqEcRNVjPejunqkg&key=AIzaSyA2I4mnP2WTVi5bBKp4lZ28Bneq43Qs_oU" allowfullscreen></iframe> -->
+           <div id ="map"></div>
             <h2>Contact me</h2> 
           </div>
         <div class="contact_information">
@@ -283,6 +285,7 @@
           <p><span class="glyphicon glyphicon-tree-deciduous"></span> Landsberger Allee,171</p>
           <p>10369, Berlin, Deutschland</p>
           <p><span class="glyphicon  glyphicon-phone-alt"></span>+49 0176 299187667</p>
+ 
         </div>
       </div><!--end contact_information-->
       <div class="cosmic col-lg-8 col-md-8">
@@ -304,6 +307,7 @@
             <p id="char-count"></p>
             <p id="visible-comment"></p> 
           <button id="button" type="submit" class="btn btn-success">Submit</button>
+         
       </div>
     </div>
     <!-- End contact section -->
@@ -342,5 +346,8 @@
     <script src="js/main.js"></script>
     <script src="js/work.js"></script>
     <script src="js/scripts.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2I4mnP2WTVi5bBKp4lZ28Bneq43Qs_oU&callback=initMap">
+  </script>
   </body>
 </html>

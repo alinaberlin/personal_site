@@ -21,3 +21,11 @@ $(".work-img").mouseenter(function(){
    $(".info", this).hide();
    });
 });
+// init google map
+var map;
+function initMap() {
+  map = new google.maps.Map(document.getElementById('map'), {
+    center: {lat: 52.5322419, lng: 13.4671},
+    zoom: 8
+  });
+}
